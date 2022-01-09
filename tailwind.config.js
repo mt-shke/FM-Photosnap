@@ -2,8 +2,15 @@ module.exports = {
 	content: ["./src/components/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {
-			colors: {},
-			fontFamily: {},
+			colors: {
+				white: "#FFFFFF",
+				black: "#000000",
+				grey: "#DFDFDF",
+				transparent: "rgb(0, 0, 0, 0)",
+			},
+			fontFamily: {
+				dm: ["DM Sans", "sans-serif"],
+			},
 		},
 	},
 	plugins: [],
@@ -12,7 +19,11 @@ module.exports = {
 // module.exports = {
 // 	content: ["./src/**/*.{js,ts,jsx,tsx}"],
 // 	theme: {
-// 		colors: {},
+// 		colors: {
+// orange: "#D87D4A",
+// red: "#FF0000",
+// black: "#101010",
+// },
 // 		fontFamily: {
 // 			manrope: ["Manrope", "Verdana", "sans-serif"],
 // 		},

@@ -4,7 +4,7 @@ const ImgComponent = (props) => {
 	const widthFull = props.className?.includes("w-") || props.className?.includes("h-") ? "" : "w-full h-full";
 
 	return (
-		<div className={`${widthFull} ${props.className ?? ""}`}>
+		<div className={`${widthFull} ${props.className ?? ""} relative`}>
 			<Image
 				className={props.icss ?? ""}
 				src={props.src}

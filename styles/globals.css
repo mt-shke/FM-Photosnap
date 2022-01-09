@@ -2,15 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Main Accent
+HEX / RGB / HSL :
+#FFC593, 	rgb(255, 197, 147),	28°, 100%, 79% #BC7198, 	rgb(188, 113, 152),	329°, 36%, 59% #5A77FF, 	rgb(90, 119, 255)	229°, 100%, 67%
+Pure Black
+Light Grey
+Pure White
+HEX : #000000
+RGB : rgb(0, 0, 0) HSL : hsl(0°, 0%, 0%)
+HEX : #DFDFDF
+RGB : rgb(223, 223, 223) HSL : hsl(0°, 0%, 87%)
+HEX : #FFFFFF
+RGB : rgb(255, 255, 255) HSL : hsl(0°, 0%, 100%) */
+
 @layer base {
 	body {
-		/* @apply bg-black text-white font-manrope text-[15px] leading-[25px]; */
+		@apply bg-white text-black font-dm min-h-screen
+		/* text-[15px] leading-[25px] */;
 	}
 
 	header,
 	main,
 	footer {
-		/* @apply mx-auto grid grid-flow-row items-center; */
+		@apply mx-auto grid grid-flow-row items-center;
 	}
 
 	main {
@@ -18,29 +32,23 @@
 	}
 
 	main > section {
-		@apply ctn w-full relative px-6;
+		@apply ctn w-full relative grid grid-flow-row items-center;
 	}
 
-	/* h1 {
-		@apply md:font-bold md:uppercase md:text-[56px] md:leading-[58px] md:tracking-[2px]
-		font-bold uppercase text-[40px] leading-[44px] tracking-[1.5px];
+	h1 {
+		@apply font-bold uppercase text-[40px] leading-[48px] tracking-[4.17px]
+		  /* md:text-[56px] md:leading-[58px] md:tracking-[2px] */;
 	}
 	h2 {
-		@apply lg:font-bold lg:uppercase lg:text-[40px] lg:leading-[44px] lg:tracking-[1.5px]
-		font-bold uppercase text-[32px] leading-[36px] tracking-[1.15px];
+		@apply font-bold uppercase text-[24px] leading-[25px] tracking-[4.17px];
 	}
+
 	h3 {
-		@apply font-bold uppercase text-[32px] leading-[36px] tracking-[1.15px];
+		@apply font-bold uppercase text-[18px] leading-[25px];
 	}
 	h4 {
-		@apply font-bold uppercase text-[28px] leading-[38px] tracking-[2px];
+		@apply font-bold uppercase text-[12px] leading-[16px] tracking-[2px];
 	}
-	h5 {
-		@apply font-bold uppercase text-[24px] leading-[33px] tracking-[1.7px];
-	}
-	h6 {
-		@apply font-bold uppercase text-[18px] leading-[24px] tracking-[1.3px];
-	} */
 }
 
 @layer components {
@@ -67,11 +75,11 @@
 	/* icon */
 
 	.icon {
-		@apply w-[24px] h-[24px] md:w-[30px] md:h-[30px];
+		@apply w-[26px] h-[26px] md:w-[30px] md:h-[30px];
 	}
 
 	.icon-logo {
-		@apply w-[110px] h-[24px] md:w-[160px] md:h-[40px];
+		@apply w-[134px] h-[26px] md:w-[160px] md:h-[40px];
 	}
 }
 
