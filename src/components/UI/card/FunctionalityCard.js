@@ -11,7 +11,7 @@ const FunctionalityCard = (props) => {
 			/>
 			<div className="flex flex-col gap-4">
 				<span className="font-bold">{props.title}</span>
-				<p className="text-sm opacity-70">{props.description}</p>
+				<p className="text-sm opacity-70 lg:text-base">{props.description}</p>
 			</div>
 		</article>
 	);

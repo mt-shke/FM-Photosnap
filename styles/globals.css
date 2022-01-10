@@ -2,29 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Main Accent
-HEX / RGB / HSL :
-#FFC593, 	rgb(255, 197, 147),	28°, 100%, 79% #BC7198, 	rgb(188, 113, 152),	329°, 36%, 59% #5A77FF, 	rgb(90, 119, 255)	229°, 100%, 67%
-Pure Black
-Light Grey
-Pure White
-HEX : #000000
-RGB : rgb(0, 0, 0) HSL : hsl(0°, 0%, 0%)
-HEX : #DFDFDF
-RGB : rgb(223, 223, 223) HSL : hsl(0°, 0%, 87%)
-HEX : #FFFFFF
-RGB : rgb(255, 255, 255) HSL : hsl(0°, 0%, 100%) */
-
 @layer base {
 	body {
-		@apply bg-white text-black font-dm min-h-screen
-		/* text-[15px] leading-[25px] */;
+		@apply bg-white text-black font-dm min-h-screen 
+		text-[15px] leading-[25px];
 	}
 
-	header,
-	main,
-	footer {
-		@apply mx-auto grid grid-flow-row items-center;
+	main {
+		@apply mx-auto grid grid-flow-row items-center max-w-[1920px];
 	}
 
 	main {
@@ -32,19 +17,22 @@ RGB : rgb(255, 255, 255) HSL : hsl(0°, 0%, 100%) */
 	}
 
 	main > section {
-		@apply ctn w-full relative grid grid-flow-row items-center;
+		@apply w-full relative grid grid-flow-row items-center;
+	}
+
+	p {
+		@apply opacity-70;
 	}
 
 	h1 {
-		@apply font-bold uppercase text-[40px] leading-[48px] tracking-[4.17px]
-		  /* md:text-[56px] md:leading-[58px] md:tracking-[2px] */;
+		@apply font-bold uppercase text-[40px] leading-[48px] tracking-[4.17px];
 	}
 	h2 {
 		@apply font-bold uppercase text-[24px] leading-[25px] tracking-[4.17px];
 	}
 
 	h3 {
-		@apply font-bold uppercase text-[18px] leading-[25px];
+		@apply font-bold text-[18px] leading-[25px];
 	}
 	h4 {
 		@apply font-bold uppercase text-[12px] leading-[16px] tracking-[2px];
@@ -63,13 +51,15 @@ RGB : rgb(255, 255, 255) HSL : hsl(0°, 0%, 100%) */
 	.flex-c6 {
 		@apply flex flex-col gap-6;
 	}
-	/* .home-landing {
-		height: calc(100vh - 4rem);
-		min-height: 32rem;
-	} */
 
 	.ctn {
-		@apply max-w-[1440px] w-full mx-auto;
+		@apply max-w-[1440px] w-full mx-auto md:px-12 xl:px-32;
+	}
+
+	.modal {
+		position: fixed;
+		inset: 0;
+		z-index: 39;
 	}
 
 	/* icon */
@@ -79,19 +69,9 @@ RGB : rgb(255, 255, 255) HSL : hsl(0°, 0%, 100%) */
 	}
 
 	.icon-logo {
-		@apply w-[134px] h-[26px] md:w-[160px] md:h-[40px];
+		@apply w-[160px] h-[26px] md:w-[160px] md:h-[40px];
 	}
 }
 
 @layer utilities {
-	/* .noArrows::-webkit-outer-spin-button,
-	.noArrows::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		-moz-appearance: textfield;
-	}
-
-	.noArrows {
-		-webkit-appearance: none;
-		-moz-appearance: textfield;
-	} */
 }

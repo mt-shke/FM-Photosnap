@@ -5,14 +5,15 @@ import Background from "../background/Background";
 
 const GalleryCard = (props) => {
 	return (
-		<figure className="grid grid-flow-row relative">
+		<figure className={`${props.className} grid grid-flow-row relative`}>
 			<ImgComponent
-				className="w-full aspect-square"
+				className="w-full aspect-square md:aspect-[7/10]"
 				src={props.src}
 				alt={`${props.title} by ${props.author}`}
 			/>
 			<figcaption className="w-full absolute z-10 p-8 bottom-0 text-white">
-				{props.title}
+				{props.date && <span className="text-sm opacity-90"> {props.date}</span>}
+				<span className="block my-1">{props.title}</span>
 				<span className="block opacity-70 text-sm">{`by ${props.author}`}</span>
 				<hr className="my-4" />
 
