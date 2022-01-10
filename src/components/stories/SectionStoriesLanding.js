@@ -28,9 +28,9 @@ const SectionStoriesLanding = (props) => {
 						<span className="opacity-70">March 2nd 2020</span> by John Appleseed
 					</span>
 					<p className="text-grey md:text-xs lg:text-base">
-						The dissected plateau area, while not actually made up of geological mountains, is popularly
+						{`The dissected plateau area, while not actually made up of geological mountains, is popularly
 						called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not
-						high, the terrain is extremely rugged.
+						high, the terrain is extremely rugged.`}
 					</p>
 					<div className="flex justify-start gap-6">
 						<h4>Read the story</h4>
