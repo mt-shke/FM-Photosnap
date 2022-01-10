@@ -28,25 +28,25 @@ const SectionGallery = (props) => {
 				author="Samantha Brooke"
 			/>
 			<GalleryCard
-				className="block md:block"
+				className="hidden md:block"
 				src="/assets/stories/desktop/mountains.jpg"
 				title="The Mountains"
 				author="John Appleseed"
 			/>
 			<GalleryCard
-				className="block md:block"
+				className="hidden md:block"
 				src="/assets/stories/desktop/cityscapes.jpg"
 				title="Sunset Cityscapes"
 				author="Benjamin Cruz"
 			/>
 			<GalleryCard
-				className="block md:block"
+				className="hidden md:block"
 				src="/assets/stories/desktop/18-days-voyage.jpg"
 				title="18 Days Voyage"
 				author="Alexei Borodin"
 			/>
 			<GalleryCard
-				className="block md:block"
+				className="hidden md:block"
 				src="/assets/stories/desktop/architecturals.jpg"
 				title="Architecturals"
 				author="Samantha Brooke"

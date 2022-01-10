@@ -9,11 +9,13 @@ const SectionArticle = (props) => {
 					className="aspect-[5/4] w-full relative md:hidden"
 					src="/assets/home/mobile/create-and-share.jpg"
 					alt="lakeview"
+					priority="true"
 				/>
 				<ImgComponent
 					className="hidden aspect-[5/4] w-full relative md:block md:col-start-4 md:col-end-8 md:row-start-1"
 					src="/assets/home/desktop/create-and-share.jpg"
 					alt="lakeview"
+					priority="true"
 				/>
 				<div
 					className="flex flex-col justify-center items-start gap-8 px-8 py-16 text-left bg-black text-white md:col-start-1 md:col-end-4 md:row-start-1 md:gap-4 md:py-6
@@ -94,7 +96,7 @@ const SectionArticle = (props) => {
 					</p>
 					<div className="flex justify-start gap-6">
 						<h4> View the stories</h4>
-						<IconArrow black="true" />
+						<IconArrow />
 					</div>
 				</div>
 			</article>

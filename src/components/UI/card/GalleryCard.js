@@ -13,11 +13,11 @@ const GalleryCard = (props) => {
 			/>
 			<figcaption className="w-full absolute z-10 p-8 bottom-0 text-white">
 				{props.date && <span className="text-sm opacity-90"> {props.date}</span>}
-				<span className="block my-1">{props.title}</span>
+				<span className="block my-2 tracking-wide">{props.title}</span>
 				<span className="block opacity-70 text-sm">{`by ${props.author}`}</span>
 				<hr className="my-4" />
 
-				<Link href="/">
+				<Link href="/#">
 					<a className="flex justify-between gap-6 text-grey">
 						<h4> Read Story</h4>
 						<IconArrow />

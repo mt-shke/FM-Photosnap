@@ -8,11 +8,13 @@ const SectionFeaturesLanding = (props) => {
 					className="aspect-[5/4] w-full relative md:hidden"
 					src="/assets/features/mobile/hero.jpg"
 					alt="adventure picture"
+					priority="true"
 				/>
 				<ImgComponent
 					className="hidden md:block md:col-start-4 md:col-end-8 aspect-[830/490] w-full relative"
 					src="/assets/features/desktop/hero.jpg"
 					alt="adventure picture"
+					priority="true"
 				/>
 
 				<div

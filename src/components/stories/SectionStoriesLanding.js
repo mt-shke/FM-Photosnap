@@ -9,11 +9,13 @@ const SectionStoriesLanding = (props) => {
 					className="aspect-square relative md:hidden"
 					src="/assets/stories/mobile/moon-of-appalacia.jpg"
 					alt="moon of appalacia"
+					priority="true"
 				/>
 				<ImgComponent
 					className="hidden relative md:block"
 					src="/assets/stories/desktop/moon-of-appalacia.jpg"
 					alt="moon of appalacia"
+					priority="true"
 				/>
 				<div className="grid grid-flow-row gap-8 px-8 py-16 text-left bg-black text-white md:absolute md:w-2/4 md:left-0 md:gap-3 md:bg-inherit lg:w-2/5 xl:gap-8">
 					<h4>{`Last month's featured story`}</h4>

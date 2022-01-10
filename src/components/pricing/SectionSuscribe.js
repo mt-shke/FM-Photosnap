@@ -11,7 +11,7 @@ const SectionSuscribe = (props) => {
 				onClick={() => setMonthly((o) => !o)}
 				className={`${
 					monthly ? "justify-start" : "justify-end"
-				} w-14 h-7 flex items-center p-1 rounded-full bg-grey`}
+				} w-14 h-7 flex items-center p-1 rounded-full bg-grey hover:cursor-pointer`}
 			>
 				<span className="h-5 aspect-square rounded-full bg-black"></span>
 			</div>
@@ -31,7 +31,7 @@ const SectionSuscribe = (props) => {
 					<p>{`Includes basic usage of our platform. Recommended for new and aspiring photographers.`}</p>
 					<div className="my-6">
 						<span className="text-4xl font-bold">${monthly ? "19.00" : "190.00"}</span>
-						<p>per {monthly ? "month" : "yearly"}</p>
+						<p>per {monthly ? "month" : "year"}</p>
 					</div>
 					<Button className="w-full">Pick Plan</Button>
 				</article>
@@ -49,7 +49,7 @@ const SectionSuscribe = (props) => {
 
 					<div className="my-6">
 						<span className="text-4xl font-bold">${monthly ? "39.00" : "390.00"}</span>
-						<p>per {monthly ? "month" : "yearly"}</p>
+						<p>per {monthly ? "month" : "year"}</p>
 					</div>
 					<Button color="white" className="w-full">
 						Pick Plan
@@ -65,7 +65,7 @@ const SectionSuscribe = (props) => {
 					<p>{`Additional features available such as more detailed metrics. Recommended for business owners.`}</p>
 					<div className="my-6">
 						<span className="text-4xl font-bold">${monthly ? "99.00" : "990.00"}</span>
-						<p>per {monthly ? "month" : "yearly"}</p>
+						<p>per {monthly ? "month" : "year"}</p>
 					</div>
 					<Button className="w-full">Pick Plan</Button>
 				</article>
