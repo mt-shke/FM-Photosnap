@@ -25,7 +25,7 @@ const Footer = (props) => {
 								</div>
 							</a>
 						</Link>
-						<div className="flex flex-row gap-2 lg:gap-3">
+						<div className="flex flex-row gap-2 lg:gap-4">
 							<IconFacebook />
 							<IconYoutube />
 							<IconTwitter />

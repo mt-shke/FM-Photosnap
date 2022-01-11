@@ -20,7 +20,7 @@ const SectionSuscribe = (props) => {
 	);
 
 	return (
-		<section className="ctn flex flex-col gap-8 items-center px-6 py-12">
+		<section className="ctn flex flex-col gap-8 items-center px-6 pt-12 lg:pt-32">
 			{buttons}
 			<div className="flex-c6 md:grid md:grid-cols-3 md:grid-flow-row">
 				<article

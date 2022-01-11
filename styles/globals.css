@@ -12,10 +12,6 @@
 		@apply mx-auto grid grid-flow-row items-center max-w-[1920px];
 	}
 
-	main {
-		/* @apply bg-white text-black gap-16 sm:gap-28 md:gap-44; */
-	}
-
 	main > section {
 		@apply w-full relative grid grid-flow-row items-center;
 	}
@@ -54,12 +50,6 @@
 
 	.ctn {
 		@apply max-w-[1440px] w-full mx-auto md:px-12 xl:px-32;
-	}
-
-	.modal {
-		position: fixed;
-		inset: 0;
-		z-index: 39;
 	}
 
 	/* icon */
