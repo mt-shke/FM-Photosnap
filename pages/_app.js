@@ -7,7 +7,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				<title>PhotoSnap</title>
-				<meta title="description" content="Photosnap - A front-end mentor challenge" />
+				<meta title="description" content="Photosnap - A front-end mentor challenge by Michel TCHA" />
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
 				<link
