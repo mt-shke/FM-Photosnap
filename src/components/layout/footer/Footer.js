@@ -18,12 +18,10 @@ const Footer = (props) => {
 				<section className="flex flex-col gap-12 w-full items-center md:flex-row md:gap-32">
 					<div className="flex-c6 md:h-full md:justify-between">
 						<Link href="/">
-							<a>
-								<div className="flex items-baseline">
-									<Logo className="w-6 overflow-hidden" src={logoIcon} fit="fill" layout="fixed" alt="logo" />
-									<h3>PHOTOSNAP</h3>
-								</div>
-							</a>
+							<div className="flex items-baseline">
+								<Logo className="w-6 overflow-hidden" src={logoIcon} fit="fill" layout="fixed" alt="logo" />
+								<h3>PHOTOSNAP</h3>
+							</div>
 						</Link>
 						<div className="flex flex-row gap-2 lg:gap-4">
 							<IconFacebook />

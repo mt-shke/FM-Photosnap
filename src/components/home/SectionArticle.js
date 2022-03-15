@@ -4,7 +4,7 @@ import IconArrow from "../UI/icon/IconArrow";
 const SectionArticle = (props) => {
 	return (
 		<section>
-			<article className="grid grid-flow-row md:grid-cols-7">
+			<article className="grid grid-flow-row md:grid-cols-7 ">
 				<ImgComponent
 					className="aspect-[5/4] w-full relative md:hidden"
 					src="/assets/home/mobile/create-and-share.jpg"

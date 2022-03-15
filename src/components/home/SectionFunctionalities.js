@@ -27,7 +27,7 @@ const SectionFunctionalities = (props) => {
 	);
 
 	return (
-		<section className="ctn gap-12 px-10 py-20 md:grid-cols-3 lg:py-32 lg:gap-20 lg:gap-y-32">
+		<section className="ctn gap-12 px-10 py-20 md:grid-cols-3 lg:py-32 lg:gap-20 lg:gap-y-32 ">
 			<FunctionalityCard
 				title="100% Responsive"
 				description="No matter which the device you’re on, our site is fully responsive and stories 
