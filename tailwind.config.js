@@ -17,7 +17,8 @@ module.exports = {
 			},
 
 			animation: {
-				fade: "fadeIn .3s ease-in",
+				fade: "fadeIn .5s ease-in",
+				fadeFast: "fadeIn .4s ease-in",
 				move: "move .5s ease-out",
 				rise: "rise .5s ease-out",
 			},

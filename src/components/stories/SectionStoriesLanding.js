@@ -34,7 +34,7 @@ const SectionStoriesLanding = (props) => {
 						called "mountains," especially in eastern Kentucky and West Virginia, and while the ridges are not
 						high, the terrain is extremely rugged.`}
 					</p>
-					<div className="flex justify-start gap-6">
+					<div className="flex justify-start gap-6 hover:cursor-pointer">
 						<h4>Read the story</h4>
 
 						<IconArrow />

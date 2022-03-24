@@ -36,7 +36,7 @@ const SectionBetaInvite = (props) => {
 						GET YOUR INVITE <br />
 						TODAY!
 					</h2>
-					<div className="flex justify-start gap-6">
+					<div className="flex justify-start gap-6 hover:cursor-pointer">
 						<h4>Read the story</h4>
 						<IconArrow />
 					</div>

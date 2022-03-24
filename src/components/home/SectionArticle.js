@@ -29,7 +29,7 @@ const SectionArticle = (props) => {
 						Photosnap is a platform for photographers and visual storytellers. We make it easy to share
 						photos, tell stories and connect with others.
 					</p>
-					<div className="flex justify-start gap-6">
+					<div className="flex justify-start gap-6 hover:cursor-pointer">
 						<h4>GET AN INVITE</h4>
 						<IconArrow />
 					</div>
@@ -63,7 +63,7 @@ const SectionArticle = (props) => {
 						We provide design templates to ensure your stories look terrific. Easily add photos, text, embed
 						maps and media from other networks. Then share your story with everyone.
 					</p>
-					<div className="flex justify-start gap-6">
+					<div className="flex justify-start gap-6 hover:cursor-pointer">
 						<h4> View the stories</h4>
 						<IconArrow black="true" />
 					</div>
@@ -94,7 +94,7 @@ const SectionArticle = (props) => {
 						Photosnap can help you create stories that resonate with your audience. Our tool is designed for
 						photographers of all levels, brands, businesses you name it.
 					</p>
-					<div className="flex justify-start gap-6">
+					<div className="flex justify-start gap-6 hover:cursor-pointer">
 						<h4> View the stories</h4>
 						<IconArrow />
 					</div>

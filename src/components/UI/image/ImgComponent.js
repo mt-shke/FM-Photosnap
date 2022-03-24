@@ -6,7 +6,7 @@ const ImgComponent = (props) => {
 	return (
 		<div className={`${widthFull} ${props.className ?? ""} relative`}>
 			<Image
-				className={props.icss ?? ""}
+				className={`${props.icss ?? ""}  animate-fade`}
 				src={props.src}
 				objectFit={props.fit ?? "cover"}
 				layout="fill"

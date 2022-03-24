@@ -31,7 +31,7 @@ const SectionSuscribe = (props) => {
 					<p>{`Includes basic usage of our platform. Recommended for new and aspiring photographers.`}</p>
 					<div className="my-6">
 						<span className="text-4xl font-bold">${monthly ? "19.00" : "190.00"}</span>
-						<p>per {monthly ? "month" : "year"}</p>
+						<p className="animate-fade">per {monthly ? "month" : "year"}</p>
 					</div>
 					<Button className="w-full">Pick Plan</Button>
 				</article>
